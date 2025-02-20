@@ -7,11 +7,11 @@ let clickCount = 0;  // 璁板綍鐐瑰嚮 No 鐨勬鏁�
 
 // No 鎸夐挳鐨勬枃瀛楀彉鍖�
 const noTexts = [
-    "锛熶綘璁ょ湡鐨勫悧鈥�", 
-    "瑕佷笉鍐嶆兂鎯筹紵", 
-    "涓嶈閫夎繖涓紒 ", 
-    "鎴戜細寰堜激蹇冣€�", 
-    "涓嶈:("
+    "?你认真的吗", 
+    "要不再想想？", 
+    "不许选这个！ ", 
+    "我会很伤心.....", 
+    "不行:("
 ];
 
 // No 鎸夐挳鐐瑰嚮浜嬩欢
@@ -49,7 +49,7 @@ noButton.addEventListener("click", function() {
 yesButton.addEventListener("click", function() {
     document.body.innerHTML = `
         <div class="yes-screen">
-            <h1 class="yes-text">!!!鍠滄浣�!! ( >釒�<)鈾★笌釔�</h1>
+            <h1 class="yes-text">!!!喜欢你!! ( >᎑<)♡︎ᐝ</h1>
             <img src="images/hug.png" alt="鎷ユ姳" class="yes-image">
         </div>
     `;
